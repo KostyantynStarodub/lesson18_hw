@@ -76,8 +76,11 @@ body{
     min-height: 500px;
     margin-bottom: 20px;
 }
-.content .box:hover{
+.content .box{
     border: 1px solid violet;
+}
+.content .box:hover{
+    border: 3px solid violet;
 }
 span{
     color: violet;
