@@ -9,6 +9,9 @@
     padding: 0;
     box-sizing: border-box
 }
+body{
+    background-color: peachpuff;
+}
 .box{
     padding: 20px;
     height: 100%;
@@ -107,22 +110,12 @@ span{
     text-align: center;
     font-size: 20px;
 }
-.photo{
-    min-height: 300px;
-    margin-bottom: 20px;
+.carusel > .col-sm-12 > .carousel > .carousel-inner > .carousel-item > .col-sm-6{
+    margin: 0 auto;
 }
-.member1 img{
-    max-width: 100%;
-
-}
-.member2 img{
-    max-width: 100%;
-}
-.member3 img{
-    max-width: 100%;
-}
-.member4 img{
-    max-width: 100%;
+.carusel img{
+    width: 300px;
+    height: 400px;
 }
 .contact{
     text-align: center;

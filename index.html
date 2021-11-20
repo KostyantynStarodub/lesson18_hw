@@ -146,37 +146,74 @@
         </main>
         <h1 class="team">TEAM</h1>
         <p class="team1">There is our team of programmers</p>
-        <main class="photo row gy-3">
-            <div class="col-md-3">
-                <div class="box">
-                    <div class="member1">
-                        <img src="./img/xfoto_na_rezyume_27.jpg.pagespeed.ic.bOQvWYodh3.jpg" alt="">
+        <main class="carusel row gy-3">
+            <div class="col-sm-12 col-md-12 col-lg-12">
+                <div id="carouselId" class="carousel slide" data-bs-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-bs-target="#carouselId" data-bs-slide-to="0" class="active"></li>
+                        <li data-bs-target="#carouselId" data-bs-slide-to="1"></li>
+                        <li data-bs-target="#carouselId" data-bs-slide-to="2"></li>
+                        <li data-bs-target="#carouselId" data-bs-slide-to="3"></li>
+                            
+                    </ol>
+                    <div class="carousel-inner" role="listbox">
+                        <div class="carousel-item active">
+                            <div class="col-sm-6 col-md-6 col-lg-6">
+                                <div class="box">
+                                    <div class="name_carusel">
+                                        <img src="./img/xfoto_na_rezyume_27.jpg.pagespeed.ic.bOQvWYodh3.jpg" alt="">
+                                    </div>
+                                    <div class="text_carusel">
+                                        <h1>Mary Brown</h1>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="col-sm-6 col-md-6 col-lg-6">
+                                <div class="box">
+                                    <div class="name_carusel">
+                                        <img src="./img/xfoto_na_rezyume_50.jpg.pagespeed.ic.EN8c5cmfAD.jpg" alt="">
+                                    </div>
+                                    <div class="text_carusel">
+                                        <h1>Alex Bull</h1>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="col-sm-6 col-md-6 col-lg-6">
+                                <div class="box">
+                                    <div class="name_carusel">
+                                        <img src="./img/foto-dlja-rezyume-alekseja-1254.jpg" alt="">
+                                    </div>
+                                    <div class="text_carusel">
+                                        <h1>Tom Dill</h1>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="col-sm-6 col-md-6 col-lg-6">
+                                <div class="box">
+                                    <div class="name_carusel">
+                                        <img src="./img/unnamed.jpg" alt="">
+                                    </div>
+                                    <div class="text_carusel">
+                                        <h1>Jessie Scout</h1>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <h1>Mary Brown</h1>
-                </div>
-            </div>
-            <div class="col-md-3">
-                <div class="box">
-                    <div class="member2">
-                        <img src="./img/xfoto_na_rezyume_50.jpg.pagespeed.ic.EN8c5cmfAD.jpg" alt="">
-                    </div>
-                    <h1>Alex Bull</h1>
-                </div>
-            </div>
-            <div class="col-md-3">
-                <div class="box">
-                    <div class="member3">
-                        <img src="./img/foto-dlja-rezyume-alekseja-1254.jpg" alt="">
-                    </div>
-                    <h1>Tom Dill</h1>
-                </div>
-            </div>
-            <div class="col-md-3">
-                <div class="box">
-                    <div class="member4">
-                        <img src="./img/unnamed.jpg" alt="">
-                    </div>
-                    <h1>Jessie Scout</h1>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselId" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselId" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                      </button>
                 </div>
             </div>
         </main>
