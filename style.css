@@ -129,43 +129,6 @@ footer .box h1{
 footer .box p{
     text-align: left;
 }
-.icons{
-    display: flex;
-    justify-content: space-around;
-    margin-top: 40px;
-}
-svg{
-    color: violet;
-}
-.box1{
-    display: flex;
-}
-.box1 p{
-    margin-left: 20px;
-}
-.box2{
-    display: flex;
-    margin-top: 80px;
-}
-.box2 p{
-    margin-left: 20px;
-}
-.box3{
-    display: flex;
-    margin-top: 80px;
-}
-.box3 p{
-    margin-left: 20px;
-}
-.mb-3_1{
-    margin-top: 0px;
-}
-.mb-3_2{
-    margin-top: 10px;
-}
-.mb-3_3{
-    margin-top: 30px;
-}
 .knopka_footer{
     margin-top: 20px;
 }
